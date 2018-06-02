@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements JokeCallbackInter
         progressBar.setVisibility(View.GONE);
         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
         if (joke == null || joke.isEmpty()) {
-            Toast.makeText(getApplicationContext(), "Error in fetching Joke", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.error_toast_msg), Toast.LENGTH_LONG).show();
             return;
         }
         //open JokeDisplay Activity

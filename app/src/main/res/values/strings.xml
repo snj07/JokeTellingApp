@@ -2,5 +2,6 @@
     <string name="app_name">JokeTellingApp</string>
     <string name="instructions">Click on button to fetch joke</string>
     <string name="button_text">Fetch Joke</string>
+    <string name="error_toast_msg">Error in fetching Joke</string>
 
 </resources>
