@@ -32,6 +32,7 @@ class GetJokeAsyncTask extends AsyncTask<Void, Void, String> {
             Libjoke.Builder builder = new Libjoke.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
                     .setRootUrl("http://10.0.2.2:8080/_ah/api/")  //localhost address for emulator
+
                     .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
                         @Override
                         public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest) throws IOException {

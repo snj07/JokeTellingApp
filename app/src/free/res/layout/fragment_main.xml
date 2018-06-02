@@ -26,7 +26,8 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:onClick="fetchJoke"
-        android:text="@string/button_text" />
+        android:text="@string/button_text"
+        tools:ignore="OnClick" />
 
 
     <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"

@@ -8,7 +8,16 @@ public class JokeCracker {
             "Why are astronauts always so calm and efficient?\nZero pressure in vacuum.",
             "Moses was leading his people across the dessert to the promised land for 40 years. This was possibly the start of the saying that men refuse to stop and ask for directions.",
             " Time is money. Therefore, ATMs are time machines.",
-            "A fine is a tax when you’ve been doing something wrong. A tax is a fine you get when you’ve been doing something right.\n"
+            "Q: Why is beer never served at a math party? \n" +
+                    "A: Because you can't drink and derive. ",
+            "Q: What do you get if you take your computer to an ice rink? \n" +
+                    "A: A slipped disk ",
+            "Windows Vista supports real multitasking - it can boot and crash simultaneously. ",
+            "Programming is like sex, one mistake and you have to support it for the rest of your life.",
+            "Unix is user friendly. It's just selective about who its friends are. ",
+            "Artificial intelligence usually beats real stupidity. ",
+            "If you think patience is a virtue, try surfing the net on a 14.4k dial up connection.",
+            "A computer once beat me at chess, but it was no match for me at kick boxing."
     };
 
 

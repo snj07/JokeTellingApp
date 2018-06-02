@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.snj.jokedisplayandroidlib.JokeDisplayActivity;
 
@@ -34,6 +35,10 @@ public class MainActivity extends AppCompatActivity implements JokeCallbackInter
         //make progress bar invisible
         progressBar.setVisibility(View.GONE);
         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
+        if (joke == null || joke.isEmpty()) {
+            Toast.makeText(getApplicationContext(), "Error in fetching Joke", Toast.LENGTH_SHORT).show();
+            return;
+        }
         //open JokeDisplay Activity
         Intent intent = new Intent(this, JokeDisplayActivity.class);
         intent.putExtra(INTENT_JOKE, joke);
