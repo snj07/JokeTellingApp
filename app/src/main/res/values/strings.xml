@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">JokeTellingApp</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="instructions">Click on button to fetch joke</string>
     <string name="button_text">Fetch Joke</string>
 
