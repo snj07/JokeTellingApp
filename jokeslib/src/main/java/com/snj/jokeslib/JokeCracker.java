@@ -11,6 +11,7 @@ public class JokeCracker {
             "A fine is a tax when you’ve been doing something wrong. A tax is a fine you get when you’ve been doing something right.\n"
     };
 
+
     public String getJoke() {
         //returns random joke from array
         return JOKES[new Random(System.currentTimeMillis()).nextInt(JOKES.length)];
